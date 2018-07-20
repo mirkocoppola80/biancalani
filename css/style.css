@@ -33,8 +33,8 @@ i.material-icons {
 
 nav {
   background-color: #ffffff;
-  height: 100px;
-  line-height: 100px;
+  height: 130px;
+  line-height: 130px;
   box-shadow: 0 2px 2px 0 rgba(5, 154, 59, 0.55);
 }
 
@@ -58,7 +58,7 @@ nav .nav-wrapper ul li:hover a {
 }
 
 nav .brand-logo {
-  width:30%;
+  width:100%;
 }
 
 .brand-logo img {
@@ -126,9 +126,9 @@ div.card.col.m4.s12 {
 /** MEDIA QUERY **/
 
 @media screen and (max-width: 992px) and (min-width:678px) {
-  nav .brand-logo {
+  /*nav .brand-logo {
     width: 35%;
-  }
+  }*/
 }
 
 @media screen and (min-width: 601px) and (max-width: 800px) {
@@ -144,9 +144,6 @@ div.card.col.m4.s12 {
 }
 
 @media screen and (max-width: 678px) {
-  nav .brand-logo {
-    width: 50%;
-  }
 
   #video-box .video-wrap {
     width:100%;
@@ -157,9 +154,3 @@ div.card.col.m4.s12 {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  nav {
-    height: 130px;
-    line-height: 130px;
-  }
-}
