@@ -18,7 +18,7 @@ html, body {
 
 h1 {
   margin: 60px 0;
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: #ec0026;
 }
 
@@ -74,7 +74,7 @@ nav .brand-logo {
 #video-box .video-wrap {
   width: 60%;
   margin: 30px auto;
-  border: 5px solid #000;
+
   padding: 10px;
 }
 
@@ -148,8 +148,12 @@ div.card.col.m4.s12 {
     width: 50%;
   }
 
-  .modal .modal-content {
-    padding:0;
+  #video-box .video-wrap {
+    width:100%;
+  }
+
+  #video-box .about-content {
+    width: 80%;
   }
 }
 
